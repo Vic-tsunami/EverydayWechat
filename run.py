@@ -1,7 +1,7 @@
 # coding=utf-8
 
 """
-程序运行入口
+程序运行入口11111
 """
 
 from everyday_wechat import main
