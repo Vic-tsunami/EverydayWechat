@@ -9,18 +9,18 @@ is_forced_switch: False
 is_auto_relay: True
 
 # 机器人渠道（1: 图灵机器人，2: 一个AI ,3 : 青云客)
-bot_channel: 3
+bot_channel: 2
 
 #图灵机器人(http://www.tuling123.com/)免费用户每天可用 100 条。
 #请在官网注册并申请 apikey ,userID。
 turing_conf:
-  apiKey: ''
+  apiKey: '04b57f5d0ef54852b1ac1f70aa08ca9c'
 
 
 # 一个 Al (http://www.yige.ai/),这个功能挺多的，朋友们自行申请，训练。
 #  client_token.客户端访问令牌。note: 已填入的这个是博主自己申请的。朋友们最好自行申请并替换。
 yigeai_conf:
-  client_token: ''
+  client_token: '720371D988305FFA8142D8040CD16FA5'
 
 # 指定自动回复的好友名单。（填：文件传输助手，可回复自己，测试效果）
 # - '好友1'
@@ -51,9 +51,9 @@ girlfriend_infos:
   - #女友微信昵称或者备注名，不能输入微信号。（如填：文件传输助手，发消息到文件传输助手，测试效果）
     wechat_name: '文件传输助手'
     #女友所在城市，用于发送天气。（可空）
-    city_name: '桂林'
+    city_name: '连云港'
     # 格言渠道（1 : ONE●一个，2 : 词霸（每日英语，双语）3: 土味情话 4 : 一言，5：笑话，6 民国情书)(可空)
-    dictum_channel : 6
+    dictum_channel : 2
     # 从那天开始勾搭的(最终效果为：宝贝这是我们在一起的第 111 天)（可空）
     start_date: '2017-10-10'
     # 落款（可空）
